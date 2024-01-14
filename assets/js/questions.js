@@ -25,5 +25,10 @@ var cai = [
 
 for (let i = 0; i < qt.length; i++) {
     questionTitle.textContent = qt[i];
-    
+
 }
+
+// Generating the answers onto buttons.
+// var ans = document.createElement("button");
+// ans.textContent = qta[i][0];
+// document.append(ans);

@@ -39,11 +39,15 @@ start = document.addEventListener("click", function setTime() {
 }
 );
 
+
 function sendMessage() {
     startscreen.classList.remove("start");
     startscreen.classList.add("hide");
     questions.classList.remove("hide");
     questions.classList.add("scores");
+var ans = document.createElement("button");
+ans.textContent = qta[0];
+document.getElementById("choices").appendChild(ans);
   }
 
   
