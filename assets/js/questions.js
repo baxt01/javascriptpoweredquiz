@@ -11,9 +11,9 @@ var qt = [
 // Answers list.
 var qta = [
     ["pointy", "curly", "parenthesis", "square"], 
-["square", "parenthesis", "pointy", "curly"], 
-["== is strict", "=== is strict", "To assign a value", "None of these"],
-["An Instagram search", "A CSS class", "A CSS ID", "A HTML element"]
+    ["square", "parenthesis", "pointy", "curly"], 
+    ["== is strict", "=== is strict", "To assign a value", "None of these"],
+    ["An Instagram search", "A CSS class", "A CSS ID", "A HTML element"]
 ]
 
 // Correct Answer Indexes.
@@ -25,10 +25,16 @@ var cai = [
 
 for (let i = 0; i < qt.length; i++) {
     questionTitle.textContent = qt[i];
+    }
 
+    
+for(let j = 0; j < qta.length; j++) {
+    var ans = document.createElement("button");
+    ans.textContent = qta[j];
+    document.getElementById("choices").appendChild(ans);
 }
 
 // Generating the answers onto buttons.
-// var ans = document.createElement("button");
-// ans.textContent = qta[i][0];
-// document.append(ans);
+
+var ans = document.createElement("button");
+ans.textContent = qta[j];

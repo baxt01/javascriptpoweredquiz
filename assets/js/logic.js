@@ -17,6 +17,9 @@ var startscreen =document.querySelector("#start-screen")
 // Get the ID questions.
 var questions = document.querySelector("#questions");
 
+// Get the ID final-score.
+var finalScore = document.getElementById("#final-score");
+
 // Set the starting time for the timer.
 var timeLeft = 10;
 
@@ -33,7 +36,10 @@ start = document.addEventListener("click", function setTime() {
     // checks if the timer has run out.
     if (timeLeft === 0) {
         clearInterval(timerInterval);
-        
+        questions.classList.remove("scores") ;
+        questions.classList.add("hide");
+        endScreen.classList.remove("hide");
+        endScreen.classList.add("scores");
     }
 }, 1000); // sets the speed of the timer in milliseconds.
 }
@@ -45,9 +51,7 @@ function sendMessage() {
     startscreen.classList.add("hide");
     questions.classList.remove("hide");
     questions.classList.add("scores");
-var ans = document.createElement("button");
-ans.textContent = qta[0];
-document.getElementById("choices").appendChild(ans);
+
   }
 
   
