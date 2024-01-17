@@ -28,6 +28,7 @@ var questions = [
 
 var currentQuestionIndex = 0;
 var correctAnswer = questions[currentQuestionIndex].answer;
+
         function showQuestion() {
             var currentQuestion = questions[currentQuestionIndex];
             questionTitle.textContent = currentQuestion.question;

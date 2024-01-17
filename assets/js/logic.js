@@ -8,7 +8,7 @@ var endScreen = document.querySelector("#end-screen");
 // Get the ID start-screen .
 var startscreen =document.querySelector("#start-screen")
 // Get the ID questions.
-var questions = document.querySelector("#questions");
+var questionsEl = document.querySelector("#questions");
 
 // Get the ID final-score.
 var finalScore = document.getElementById("#final-score");
@@ -30,8 +30,8 @@ start = document.querySelector("#start").addEventListener("click", function setT
     // checks if the timer has run out.
     if (timeLeft === 0) {
         clearInterval(timerInterval);
-        questions.classList.remove("scores") ;
-        questions.classList.add("hide");
+        questionsEl.classList.remove("scores") ;
+        questionsEl.classList.add("hide");
         endScreen.classList.remove("hide");
         endScreen.classList.add("scores");
     }
@@ -43,8 +43,8 @@ start = document.querySelector("#start").addEventListener("click", function setT
 function sendMessage() {
     startscreen.classList.remove("start");
     startscreen.classList.add("hide");
-    questions.classList.remove("hide");
-    questions.classList.add("scores");
+    questionsEl.classList.remove("hide");
+    questionsEl.classList.add("scores");
 
   }
 
