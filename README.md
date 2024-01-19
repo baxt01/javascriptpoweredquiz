@@ -72,5 +72,6 @@ This webpage has been tested using Git Pages [Click here to visit my live  git p
 
 ## Screenshots
 
- ![My Repo](https://github.com/baxt01/Console-Finances/blob/main/repo.png) 
-  ![working code](https://github.com/baxt01/Console-Finances/blob/main/workingcode.png)
+ ![My Repo](https://github.com/baxt01/javascriptpoweredquiz/blob/main/assets/images/repo.png) 
+  ![working code](https://github.com/baxt01/javascriptpoweredquiz/blob/main/assets/images/live%20code.png)
+   ![Live Repo](https://github.com/baxt01/javascriptpoweredquiz/blob/main/assets/images/repo.png)
