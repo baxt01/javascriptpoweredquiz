@@ -67,7 +67,7 @@ See the license inside my repo for further details of the MIT license.
 
 ## Tests
 
-This webpage has been tested using Git Pages [Click here to visit my live  git page](https://baxt01.github.io/Console-Finances/)
+This webpage has been tested using Git Pages [Click here to visit my live  git page](https://baxt01.github.io/javascriptpoweredquiz/)
 
 
 ## Screenshots
